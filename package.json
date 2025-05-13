@@ -1,0 +1,27 @@
+{
+  "name": "discord-app-fardebugger",
+  "version": "1.0.0",
+  "description": "A fun discord bot",
+  "homepage": "https://github.com/oopsvincent/Discord-App-Fardebugger#readme",
+  "bugs": {
+    "url": "https://github.com/oopsvincent/Discord-App-Fardebugger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oopsvincent/Discord-App-Fardebugger.git"
+  },
+  "license": "ISC",
+  "author": "oopsvincent",
+  "type": "commonjs",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+    "dependencies": {
+    "@discordjs/rest": "^2.4.0",
+    "axios": "^1.7.7",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "one-liner-joke": "^1.2.2"
+  }
+}
